@@ -1,0 +1,9 @@
+apiVersion: crds.example.com/v1
+kind: DatabaseConnection
+metadata:
+  name: demo-database
+spec:
+  engine: postgres
+  defaultSchema: demo-database
+  rootUser: root
+  rootPassword: P@$$w0rd
